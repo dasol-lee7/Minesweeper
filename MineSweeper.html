@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Minesweeper</title>
+        <link rel="stylesheet" type="text/css" href="MineSweeper.css">
+        <script src="jquery-3.2.1.js"></script>   
+    </head>
+    <body>   
+        <h1 id="title">M i N e S w E e P e R</h1>
+        <div>
+            Rows: <input id="rows" type="number" value="8" min="8" name="fname"><br>
+            Columns: <input id="columns" type="number" value="8" min="8" name="lname"><br>
+            Mines: <input id="mines"  type="number" value="" min="8" name="lname"><br><br>           
+            <button id="start">START!</button>
+        </div><br>
+        <div id="board"></div>
+        <script src="MineSweeper.js"></script>
+        <br><br><br>
+         <tr>
+            <td>               
+                <div>Remaining mines:</div><br>
+                <div id="minesleft"></div><br>
+            </td>
+        </tr>       
+   </body>
+</html>
